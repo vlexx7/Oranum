@@ -1,0 +1,142 @@
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+h1, h2, h3 {
+  color: #444;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff4757;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: #ff6b81;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://via.placeholder.com/1200x600') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+}
+
+/* Эксперты */
+.experts {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.expert-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.expert-item {
+  width: 30%;
+}
+
+.expert-item img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.expert-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Как это работает */
+.how-it-works {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.step {
+  width: 30%;
+}
+
+.step span {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ff4757;
+}
+
+/* Отзывы */
+.testimonials {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.testimonial-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.testimonial-item {
+  width: 45%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.testimonial-item p {
+  font-style: italic;
+}
+
+/* Финальный призыв */
+.final-cta {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #ff4757;
+  color: white;
+}
+
+/* Подвал */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: white;
+}
